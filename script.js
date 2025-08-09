@@ -22,6 +22,7 @@ const translations = {
         testimonial3: "Tracking my deals helps me see how much I've saved over time. Highly recommend!",
         ctaTitle: "Download PricePal Today – Stop overpaying in the market!",
         footerText: "© 2025 All rights reserved. Designed By",
+        privacyPolicy: "Privacy Policy",
         googlePlayAlt: "Get it on Google Play",
         appStoreAlt: "Download on the App Store"
     },
@@ -47,6 +48,7 @@ const translations = {
         testimonial3: "To dey track my deals help me see how much I don save. I recommend am!",
         ctaTitle: "Download PricePal Today – Stop to dey overpay for market!",
         footerText: "© 2025 All rights reserved. Designed By",
+        privacyPolicy: "Privacy Policy",
         googlePlayAlt: "Get it on Google Play",
         appStoreAlt: "Download on the App Store"
     }
@@ -93,7 +95,7 @@ function updateContent(lang) {
     document.querySelector('.cta-section h2').textContent = data.ctaTitle;
     
     // Update footer
-    document.querySelector('footer p').innerHTML = `${data.footerText} <a href="https://instagram.com/osas.codes" target="_blank">Osagie Bernard Ebhuomhan</a>`;
+    document.querySelector('footer p').innerHTML = `${data.footerText} <a href="https://instagram.com/osas.codes" target="_blank">Osagie Bernard Ebhuomhan</a> | <a href="privacy_policy.html">${data.privacyPolicy}</a>`;
     
     // Update alt texts
     document.querySelectorAll('img[alt="Get it on Google Play"]').forEach(img => {

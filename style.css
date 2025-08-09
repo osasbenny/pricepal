@@ -282,3 +282,13 @@ footer a:hover {
     position: relative;
 }
 
+
+
+/* App Logo */
+.app-logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
